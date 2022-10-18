@@ -1,0 +1,55 @@
+.Main-Generator{
+    min-height: 640px;
+    max-height: auto;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+
+.Main-Generator::-webkit-scrollbar {
+    display: none;
+}
+table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 1px 1px #bcbaba;
+    border: none;
+    margin-top: 15px;
+
+}
+th{
+    font-size: 14px;
+    width: 25%;
+    box-shadow: 1px 1px 1px 1px #bcbaba;
+    border: none;
+    border-collapse: collapse;
+    color: rgb(111, 107, 107);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+tr{
+    font-size: 13px;
+    text-align: left;
+    width: 25%;
+}
+td{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px #bcbaba;
+    border: none;
+    padding-right: 20px;
+
+}
+
+.TableInput{
+    outline: none;
+    box-shadow: 1px 1px 1px 1px #bcbaba;
+    border: none;
+    height: 25px;
+    color: #7e7b7b;
+    text-align: center;
+}
